@@ -25,7 +25,6 @@ export default function Step() {
               </div>
             </div>
           </div>
-
           <div className="z-10 mt-12 sm:mx-6 md:mt-0">
             {/* Step-1 */}
             <div className="flex flex-col gap-6 z-10">
@@ -35,11 +34,9 @@ export default function Step() {
                     <p className="bg-[#F5F5F4] inline-block px-2.5 py-0.5 text-[#44403C] rounded-sm">STEP 1</p>
                     <p className="text-[#57534E]">01 / 03</p>
                   </div>
-
                   <div className="bg-[#E7E5E4] rounded-md">
                     <Image src={Step1} alt="logo" className="rounded-md" />
                   </div>
-
                   <div className="flex flex-col gap-3">
                     <h5 className="text-2xl text-[#57534E] font-manrope">Apply on our site, select your loan</h5>
                     <p className="text-[#79716B]">
@@ -49,7 +46,6 @@ export default function Step() {
                   </div>
                 </div>
               </div>
-
               {/* Step-2 */}
               <div className="bg-white max-w-[345px] sm:max-w-[696px] rounded-md">
                 <div className="mx-10 my-10 flex flex-col gap-6">
@@ -57,11 +53,9 @@ export default function Step() {
                     <p className="bg-[#F5F5F4] inline-block px-2.5 py-0.5 text-[#44403C] rounded-sm">STEP 2</p>
                     <p className="text-[#57534E]">02 / 03</p>
                   </div>
-
                   <div className="bg-[#E7E5E4] rounded-md">
                     <Image src={Step2} alt="logo" className="rounded-md" />
                   </div>
-
                   <div className="flex flex-col gap-3">
                     <h5 className="text-2xl text-[#57534E] font-manrope">Instant approval</h5>
                     <p className="text-[#79716B]">
@@ -72,7 +66,6 @@ export default function Step() {
                   </div>
                 </div>
               </div>
-
               {/* Step-3 */}
               <div className="bg-white max-w-[345px] sm:max-w-[696px] rounded-md">
                 <div className="mx-10 my-10 flex flex-col gap-6">
@@ -80,11 +73,9 @@ export default function Step() {
                     <p className="bg-[#F5F5F4] inline-block px-2.5 py-0.5 text-[#44403C] rounded-sm">STEP 3</p>
                     <p className="text-[#57534E]">03 / 03</p>
                   </div>
-
                   <div className="bg-[#E7E5E4] rounded-md">
                     <Image src={Step3} alt="logo" className="rounded-md" />
                   </div>
-
                   <div className="flex flex-col gap-3">
                     <h5 className="text-2xl text-[#57534E] font-manrope">Funds delivered</h5>
                     <p className="text-[#79716B]">
