@@ -22,7 +22,7 @@ export default function ApplyLoans() {
             </div>
             <p>Excellent 4.7 Stars • 451 reviews </p>
           </div>
-          <h1 className="max-w-[714px] text-center font-manrope sm:text-7xl text-5xl font-normal sm:pt-6 pt-2 relative">
+          <h1 className="max-w-[714px] text-center font-manrope text-[#44403C] sm:text-7xl text-5xl font-normal sm:pt-6 pt-2 relative">
             Fast Short Term Payday <span className="text-[#BCD02A] font-serif italic">Loans</span> Online
           </h1>
           <p className="max-w-[486px] text-center text-[#57534E] pt-6 text-xl font-normal">

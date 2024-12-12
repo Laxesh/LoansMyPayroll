@@ -7,7 +7,7 @@ export default function Blog() {
       <div className="max-w-[1440px] mx-auto py-10 px-6 lg:px-28">
         <div className="flex justify-between">
           <h4 className="text-3xl sm:text-5xl text-[#44403C] inline-block">Read our other blogs</h4>
-          <button className="bg-[#E6FF33] font-manrope text-[#5E6815] border border-[#D2E92F] px-4 py-[10px] rounded-md hidden md:inline">
+          <button className="bg-[#E6FF33] font-manrope text-[#5E6815] border border-[#D2E92F] px-4 py-[10px] rounded-md hidden md:inline hover:bg-[#bdd02a] hover:text-black">
             View all blog posts
           </button>
         </div>

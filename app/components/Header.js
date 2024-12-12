@@ -36,7 +36,9 @@ export default function Header() {
           </div>
 
           <div className="flex gap-x-3 text-base">
-            <button className="px-4 py-[10px] text-[#A9A29D] hidden sm:inline hover:text-black">Sign in</button>
+            <button className="px-4 py-[10px] text-[#A9A29D] hidden sm:inline hover:text-black hover:border hover:border-[#E7E5E4] rounded-md">
+              Sign in
+            </button>
             <button className="bg-yellow text-[#5E6815] px-[18px] py-[10px] border border-[#D2E92F] rounded-md hidden sm:inline hover:bg-[#BCD02A] hover:text-black">
               Apply Now
             </button>

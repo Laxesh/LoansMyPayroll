@@ -42,7 +42,7 @@ export default function LoanManagement() {
                 </p>
               </div>
               <div className="mt-12">
-                <button className="bg-white text-[#44403C] px-[18px] sm:px-5 py-3 text-base rounded-sm">
+                <button className="bg-white text-[#44403C] px-[18px] sm:px-5 py-3 text-base rounded-sm border border-[#E7E5E4] hover:bg-black hover:text-white">
                   Apply for loan
                 </button>
               </div>

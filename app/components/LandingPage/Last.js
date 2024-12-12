@@ -14,7 +14,7 @@ export default function Last() {
             </h1>
             <p className="text-lg text-[#57534E] md:mt-4">Work with a loan company that cares.</p>
           </div>
-          <button className="bg-white text-[#44403C] px-4 py-[10px] rounded-sm z-10 border border-[#E7E5E4] mt-[84px]">
+          <button className="bg-white text-[#44403C] px-4 py-[10px] rounded-sm z-10 border border-[#E7E5E4] mt-[84px] hover:bg-black hover:text-white">
             Apply for loan
           </button>
           <div className="absolute inset-0 z-0">

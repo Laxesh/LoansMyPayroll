@@ -19,7 +19,7 @@ export default function Step() {
                 <h3 className="text-3xl md:text-5xl">Apply in just 3 easy steps.</h3>
               </div>
               <div className="mt-12 hidden md:block">
-                <button className="bg-[#E6FF33] border border-[#D2E92F] text-[#5E6815] px-5 py-3 rounded-sm">
+                <button className="bg-[#E6FF33] border border-[#D2E92F] text-[#5E6815] px-5 py-3 rounded-sm hover:bg-[#bdd02a] hover:text-black">
                   Apply for loan
                 </button>
               </div>

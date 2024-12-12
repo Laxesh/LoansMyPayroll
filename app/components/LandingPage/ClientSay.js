@@ -12,7 +12,7 @@ export default function ClientSay() {
               clients have to say.
             </h2>
             <div className="w-1/2 relative hidden md:inline">
-              <button className="absolute bottom-0 right-0 bg-[#E6FF33] px-4 py-[10px] rounded-md text-[#5E6815]">
+              <button className="absolute bottom-0 right-0 bg-[#E6FF33] px-4 py-[10px] rounded-md text-[#5E6815] border border-[#D2E92F] hover:bg-[#bdd02a] hover:text-black">
                 View all reviews
               </button>
             </div>
