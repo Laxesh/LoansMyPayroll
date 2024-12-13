@@ -45,7 +45,7 @@ export default function LoansPayroll() {
             </div>
           </div>
 
-          <div className="flex flex-col relative items-center justify-center w-[345px] sm:w-[400px] h-[496px] ">
+          <div className="flex flex-col relative items-center justify-center w-[345px] sm:w-[400px] h-[496px] px-3 sm:px-0 ">
             <Image src={Product} alt="logo" className="rounded-2xl" fill={true} />
             <button className="absolute bottom-8 bg-[#E6FF33] text-[#5E6815] border border-[#D2E92F] w-[281px] sm:w-[336px] py-3 rounded-sm hover:bg-[#bdd02a] hover:text-black">
               Apply for a loan today

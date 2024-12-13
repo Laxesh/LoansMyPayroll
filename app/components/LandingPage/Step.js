@@ -11,7 +11,7 @@ export default function Step() {
     <>
       <div className="bg-black relative overflow-hidden">
         <div className="max-w-[1440px] mx-auto py-12 md:mx-6 lg:mx-0 sm:py-24 flex md:flex-row flex-col justify-center z-10 items-center md:items-start">
-          <div className="text-white w-[345px] md:w-[488px] z-10">
+          <div className="text-white w-[345px] md:w-[488px] z-10 sm:px-0 px-3">
             <div className="flex flex-col">
               <p className="text-xs hidden md:block">How it works</p>
               <p className="text-xs block md:hidden">Our Product</p>
