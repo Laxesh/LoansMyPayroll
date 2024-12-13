@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import Left from "@/public/left-y-2.png";
-import Right from "@/public/right-y-2.png";
+import Left from "@/public/Left-y-2.png";
+import Right from "@/public/Right-y-2.png";
 
 export default function Last() {
   return (
