@@ -1,3 +1,5 @@
+"use client";
+
 import ApplyLoans from "./components/LandingPage/ApplyLoans";
 import LoansPayroll from "./components/LandingPage/LoansPayroll";
 import Step from "./components/LandingPage/Step";
@@ -5,17 +7,35 @@ import ClientSay from "./components/LandingPage/ClientSay";
 import LoanManagement from "./components/LandingPage/LoanManagement";
 import Blog from "./components/LandingPage/Blog";
 import Last from "./components/LandingPage/Last";
+import { useEffect, useState } from "react";
+import Demo from "./components/demo";
 
 export default function Home() {
+  const [animate, setAnimate] = useState(true);
+
+  // useEffect(() => {
+  //   setTimeout(() => {
+  //     setAnimate(false);
+  //   }, 5000);
+  // }, []);
+
   return (
     <>
-      <ApplyLoans />
-      <LoansPayroll />
-      <Step />
-      <ClientSay />
-      <LoanManagement />
-      <Blog />
-      <Last />
+      {animate ? (
+        <div className="fixed top-0 left-0 w-full h-full z-10">
+          <Demo />
+        </div>
+      ) : (
+        <div>
+          <ApplyLoans />
+          <LoansPayroll />
+          <Step />
+          <ClientSay />
+          <LoanManagement />
+          <Blog />
+          <Last />
+        </div>
+      )}
     </>
   );
 }
