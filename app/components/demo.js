@@ -110,7 +110,15 @@ export default function Demo() {
           <motion.div
             initial={{ opacity: 1 }}
             animate={{ opacity: 1 }}
-            exit={{ opacity: 0, y: 150, transition: { duration: 0.9, delay: 0.5 } }}
+            transition={{ ease: "easeOut" }}
+            exit={{
+              opacity: 0,
+              backgroundColor: "black",
+              transition: {
+                opacity: { duration: 1, ease: "backOut" },
+                backgroundColor: { duration: 0.2 },
+              },
+            }}
             className="w-screen h-screen flex justify-center items-center overflow-hidden relative"
           >
             <motion.img
