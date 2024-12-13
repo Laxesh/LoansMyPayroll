@@ -134,7 +134,7 @@ export default function Demo() {
                   animate={{ opacity: 1, scale: 1, y: 0 }}
                   transition={{ delay: 3.5, duration: 1 }}
                   exit={{ opacity: 0, y: 50, transition: { duration: 0.5, delay: 0.5 } }}
-                  className="max-w-[714px] text-center font-manrope text-white sm:text-7xl text-5xl font-normal sm:pt-6 pt-2 relative"
+                  className="max-w-[714px] text-center font-manrope text-white sm:text-7xl text-4xl font-normal sm:pt-6 pt-2 relative mx-4"
                 >
                   Fast Short Term Payday
                   <span className="text-[#BCD02A] font-serif italic">Loans</span>
