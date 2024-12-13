@@ -9,15 +9,17 @@ import Blog from "./components/LandingPage/Blog";
 import Last from "./components/LandingPage/Last";
 import { useEffect, useState } from "react";
 import Demo from "./components/demo";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
 
 export default function Home() {
   const [animate, setAnimate] = useState(true);
 
-  // useEffect(() => {
-  //   setTimeout(() => {
-  //     setAnimate(false);
-  //   }, 5000);
-  // }, []);
+  useEffect(() => {
+    setTimeout(() => {
+      setAnimate(false);
+    }, 6000);
+  }, []);
 
   return (
     <>
@@ -27,6 +29,7 @@ export default function Home() {
         </div>
       ) : (
         <div>
+          <Header />
           <ApplyLoans />
           <LoansPayroll />
           <Step />
@@ -34,6 +37,7 @@ export default function Home() {
           <LoanManagement />
           <Blog />
           <Last />
+          <Footer />
         </div>
       )}
     </>

@@ -1,9 +1,6 @@
 import "./globals.css";
 import { Inter, Instrument_Serif, Manrope } from "next/font/google";
 
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-
 const inter = Inter({
   subsets: ["latin"],
   display: "swap",
@@ -32,11 +29,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${inter.variable} ${instrumentSerif.variable} ${manrope.variable}`}>
-      <body className="font-sans">
-        <Header />
-        {children}
-        <Footer />
-      </body>
+      <body className="font-sans">{children}</body>
     </html>
   );
 }
