@@ -110,8 +110,7 @@ export default function Demo() {
           <motion.div
             initial={{ opacity: 1 }}
             animate={{ opacity: 1 }}
-            exit={{ opacity: 0, y: 50 }}
-            transition={{ duration: 0.8 }}
+            exit={{ opacity: 0, y: 150, transition: { duration: 0.9, delay: 0.5 } }}
             className="w-screen h-screen flex justify-center items-center overflow-hidden relative"
           >
             <motion.img
@@ -126,7 +125,7 @@ export default function Demo() {
                   initial={{ opacity: 0, scale: 1, y: 50 }}
                   animate={{ opacity: 1, scale: 1, y: 0 }}
                   transition={{ delay: 3.5, duration: 1 }}
-                  exit={{ opacity: 0, y: 50, transition: { duration: 0.8 } }}
+                  exit={{ opacity: 0, y: 50, transition: { duration: 0.5, delay: 0.5 } }}
                   className="max-w-[714px] text-center font-manrope text-white sm:text-7xl text-5xl font-normal sm:pt-6 pt-2 relative"
                 >
                   Fast Short Term Payday
