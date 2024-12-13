@@ -17,7 +17,7 @@ export default function Header() {
       <motion.div
         initial={{ opacity: 0.5, scale: 1, y: -150 }}
         animate={{ opacity: 1, scale: 1, y: 0 }}
-        transition={{ duration: 1 }}
+        transition={{ duration: 0.5 }}
       >
         <header className="mx-auto px-4 lg:px-20 sm:px-8 border-b border-[#E7E5E4]">
           <div className="flex justify-between items-center py-4 gap-10 relative z-10 ">

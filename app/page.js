@@ -18,7 +18,7 @@ export default function Home() {
   useEffect(() => {
     setTimeout(() => {
       setAnimate(false);
-    }, 6400);
+    }, 6100);
   }, []);
 
   return (

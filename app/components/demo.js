@@ -16,7 +16,7 @@ export default function Demo() {
     }, 5000);
     setTimeout(() => {
       setAnimation(false);
-    }, 5900);
+    }, 5800);
   });
 
   const Animation1 = async () => {
@@ -115,7 +115,7 @@ export default function Demo() {
               opacity: 0,
               backgroundColor: "black",
               transition: {
-                opacity: { duration: 1, ease: "backOut" },
+                opacity: { duration: 0.5, ease: "backOut" },
                 backgroundColor: { duration: 0.2 },
               },
             }}
@@ -137,7 +137,7 @@ export default function Demo() {
                   className="max-w-[714px] text-center font-manrope text-white sm:text-7xl text-4xl font-normal sm:pt-6 pt-2 relative mx-4"
                 >
                   Fast Short Term Payday
-                  <span className="text-[#BCD02A] font-serif italic">Loans</span>
+                  <span className="text-[#BCD02A] font-serif italic"> Loans </span>
                   Online
                 </motion.h2>
               )}

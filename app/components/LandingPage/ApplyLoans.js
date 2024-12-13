@@ -19,7 +19,7 @@ export default function ApplyLoans() {
             className="flex flex-col sm:flex-row gap-x-6 items-center justify-center"
             initial={{ opacity: 0, y: -50 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1 }}
+            transition={{ duration: 0.25 }}
           >
             <div className="flex gap-x-2">
               <Image src={Star} alt="logo" />
@@ -32,7 +32,7 @@ export default function ApplyLoans() {
             className="max-w-[714px] text-center font-manrope text-[#44403C] sm:text-7xl text-5xl font-normal sm:pt-6 pt-2 relative"
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1 }}
+            transition={{ duration: 0.25 }}
           >
             Fast Short Term Payday <span className="text-[#BCD02A] font-serif italic">Loans</span> Online
           </motion.h1>
@@ -40,7 +40,7 @@ export default function ApplyLoans() {
             className="max-w-[486px] text-center text-[#57534E] pt-6 text-xl font-normal"
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1 }}
+            transition={{ duration: 0.25 }}
           >
             Fast cash when you need it most. Apply online, get approved instantly.
           </motion.p>
@@ -67,7 +67,7 @@ export default function ApplyLoans() {
           className="flex flex-col items-center m-6 z-20"
           initial={{ opacity: 0, y: 250 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1, delay: 0.1 }}
+          transition={{ duration: 0.5 }}
         >
           <button className="bg-[#E6FF33] rounded-md text-base px-[18px] py-2.5 text-[#5E6815] border border-[#D2E92F] w-full sm:w-auto hover:bg-[#bdd02a] hover:text-black">
             Apply Now
@@ -77,7 +77,7 @@ export default function ApplyLoans() {
           className="flex flex-row gap-8 items-center justify-center overflow-hidden lg:mt-12 md:mx-6"
           initial={{ opacity: 0, y: 250 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.1, duration: 1 }}
+          transition={{ duration: 0.5 }}
         >
           <div className="hidden relative md:inline-block">
             <Image src={Pic} alt="logo" className="rounded-lg" />
