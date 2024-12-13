@@ -49,7 +49,7 @@ export default function ApplyLoans() {
               src={right.src}
               alt="logo"
               className="absolute top-[-22px] right-[326px] w-6 h-[35px]"
-              initial={{ opacity: 1, scale: 3, x: -400, y: 100 }}
+              initial={{ opacity: 1, scale: 4, x: -400, y: 100 }}
               animate={{ opacity: 1, scale: 1, x: 0, y: 0 }}
               transition={{ duration: 0.5 }}
             />
@@ -57,7 +57,7 @@ export default function ApplyLoans() {
               src={left.src}
               alt="logo"
               className="absolute top-[122PX] left-[305PX] w-6 h-[35px]"
-              initial={{ opacity: 1, scale: 3, x: 400, y: 100 }}
+              initial={{ opacity: 1, scale: 4, x: 400, y: 100 }}
               animate={{ opacity: 1, scale: 1, x: 0, y: 0 }}
               transition={{ duration: 0.5 }}
             />
