@@ -11,13 +11,12 @@ export default function LoanManagement() {
       <div className="bg-[#F5F5F4] relative overflow-hidden">
         <div className="max-w-[1440px] mx-auto flex justify-center py-12 md:py-40 px-6 md:px-36">
           <div className="z-10">
-            <h3 className="text-4xl md:text-5xl font-manrope z-10 flex flex-wrap justify-center max-w-[345px] md:max-w-[598px] text-center">
-              Get the loan that’s <span className="text-[#BCD02A] font-serif italic px-2">worth</span> making the
-              switch.
+            <h3 className="text-4xl md:text-5xl font-manrope max-w-[345px] md:max-w-[598px] text-center">
+              Get the loan that’s <span className="text-[#BCD02A] font-serif italic">worth</span> making the switch.
             </h3>
           </div>
           <div className="absolute flex top-[33px] left-[-81px] md:top-[61px] lg:left-[236px] sm:left-[150px] md:bottom-[-205px] z-0 ">
-            <Image src={Right} alt="logo" className="" />
+            <Image src={Right} alt="logo" />
             <Image src={Left} alt="logo" className="hidden sm:inline" />
           </div>
         </div>

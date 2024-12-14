@@ -84,7 +84,7 @@ export default function ApplyLoans() {
             <Image src={bg1} alt="logo" className="absolute top-[138px] left-0" />
             <Image src={bg2} alt="logo" className="absolute right-0 top-[283px]" />
             <Image src={bg1} alt="logo" className="absolute top-[-142px] right-0" />
-            <div className="absolute bottom-0 left-8 bg-white p-4 rounded-t-2xl shadow-lg max-w-[378px] border border-b-0 border-[#D7D3D0]">
+            <div className="absolute bottom-0 left-8 bg-white p-4 rounded-t-2xl shadow-lg w-[378px] border border-b-0 border-[#D7D3D0]">
               <div className="flex mb-3 justify-between">
                 <p className="text-[#79716B] font-normal text-sm">Loan details</p>
                 <p className="text-[#067647] bg-[#ECFDF3] font-normal text-xs px-2 py-1">Application Approved</p>
