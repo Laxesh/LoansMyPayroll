@@ -10,7 +10,7 @@ export default function Step() {
   return (
     <>
       <div className="bg-black relative overflow-hidden">
-        <div className="max-w-[1440px] mx-auto py-12 md:mx-6 lg:mx-0 sm:py-24 flex md:flex-row flex-col justify-center z-10 items-center md:items-start">
+        <div className="max-w-[1440px] mx-auto lg:mx-28 md:px-12 lg:px-0 py-12 sm:py-24 flex md:flex-row flex-col z-10 justify-center items-center md:items-start">
           <div className="text-white w-[345px] md:w-[488px] z-10 sm:px-0 px-3">
             <div className="flex flex-col">
               <p className="text-xs hidden md:block">How it works</p>
@@ -25,7 +25,7 @@ export default function Step() {
               </div>
             </div>
           </div>
-          <div className="z-10 mt-12 md:mt-0 mx-6 lg:mx-28 sm:mx-20 md:mx-0">
+          <div className="z-10 mt-12 md:mt-0">
             {/* Step-1 */}
             <div className="flex flex-col gap-6 z-10">
               <div className="bg-white max-w-[345px] sm:max-w-[696px] rounded-md">

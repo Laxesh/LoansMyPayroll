@@ -22,7 +22,8 @@ export default function LoanManagement() {
           </div>
         </div>
       </div>
-      <div className="max-w-[1440px] mx-auto py-6 sm:py-24 sm:mx-16 flex flex-col sm:items-center">
+
+      <div className="max-w-[1440px] mx-auto py-6 sm:py-24 sm:mx-16 flex justify-center">
         <div className="flex flex-col md:flex-row justify-center gap-6">
           <div className="mx-6 sm:mx-0">
             <Image src={Phone} alt="logo" className="rounded-[10px]" />
