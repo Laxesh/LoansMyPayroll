@@ -33,7 +33,11 @@ export default function ClientSay() {
                 <p className="text-[#79716B]">Review from Trustpilot</p>
               </div>
             </div>
-            <Image src={Backgirl} alt="logo" className="rounded-[10px] md:max-w-[441px]  lg:max-w-[441px]" />
+            <Image
+              src={Backgirl}
+              alt="logo"
+              className="rounded-[10px] md:max-w-[441px] lg:max-w-[441px] order-first md:order-last"
+            />
           </div>
 
           <div className="flex flex-col md:flex-row justify-center items-center gap-8">
