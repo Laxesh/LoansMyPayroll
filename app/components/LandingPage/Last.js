@@ -18,7 +18,7 @@ export default function Last() {
             Apply for loan
           </button>
           <div className="absolute inset-0 z-0">
-            <div className="flex absolute sm:top-0 sm:left-0">
+            <div className="flex absolute sm:top-[-30px] sm:left-0">
               <Image src={Right} alt="logo" />
             </div>
             <div className="flex absolute sm:bottom-[-81px] sm:right-0 -z-10">
