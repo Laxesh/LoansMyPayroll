@@ -9,9 +9,9 @@ export default function Last() {
       <div className="mx-auto max-w-[1440px] py-12 px-6  md:px-28 md:py-24">
         <div className="bg-[#EAFF72] flex md:flex-row flex-col items-start md:items-end justify-between p-8 h-[335px] rounded-md relative overflow-hidden">
           <div className="z-10">
-            <h1 className="text-3xl md:text-4xl text-[#44403C] font-manrope">
+            <h4 className="text-3xl md:text-4xl text-[#44403C] font-manrope">
               Get the Funds You Need Today, hassle free.
-            </h1>
+            </h4>
             <p className="text-lg text-[#57534E] md:mt-4">Work with a loan company that cares.</p>
           </div>
           <button className="bg-white text-[#44403C] px-4 py-[10px] rounded-sm z-10 border border-[#E7E5E4] mt-[84px] hover:bg-black hover:text-white">

@@ -62,17 +62,17 @@ export default function ApplyLoans() {
               transition={{ duration: 0.5 }}
             />
           </div>
+          <motion.div
+            className="flex flex-col items-center m-6 z-20"
+            initial={{ opacity: 0, y: 250 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+          >
+            <button className="bg-[#E6FF33] rounded-md text-base px-[18px] py-2.5 text-[#5E6815] border border-[#D2E92F] w-full sm:w-auto hover:bg-[#bdd02a] hover:text-black">
+              Apply Now
+            </button>
+          </motion.div>
         </div>
-        <motion.div
-          className="flex flex-col items-center m-6 z-20"
-          initial={{ opacity: 0, y: 250 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5 }}
-        >
-          <button className="bg-[#E6FF33] rounded-md text-base px-[18px] py-2.5 text-[#5E6815] border border-[#D2E92F] w-full sm:w-auto hover:bg-[#bdd02a] hover:text-black">
-            Apply Now
-          </button>
-        </motion.div>
         <motion.div
           className="flex flex-row gap-8 items-center justify-center overflow-hidden lg:mt-12 md:mx-6"
           initial={{ opacity: 0, y: 250 }}
