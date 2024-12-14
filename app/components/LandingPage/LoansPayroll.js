@@ -28,7 +28,6 @@ export default function LoansPayroll() {
             See why so many<span className="text-[#BCD02A] font-serif italic px-2">switched </span> to LoansMyPayroll
           </h2>
         </div>
-
         <div className="flex flex-col md:flex-row max-w-[1216px] items-center justify-center gap-6 mx-6 lg:mx-28 sm:mx-20">
           <div className="w-full  md:w-1/3 p-3 border border-[#E7E5E4] rounded-2xl">
             <div className="flex flex-col p-2 rounded-[10px] bg-[#FAFAF9] gap-3">
@@ -44,14 +43,12 @@ export default function LoansPayroll() {
               />
             </div>
           </div>
-
           <div className="flex flex-col relative order-first md:order-none items-center justify-center h-[496px] mx-3 sm:mx-0 w-full md:w-1/3 sm:w-[400px]">
             <Image src={Product} alt="logo" className="rounded-2xl" fill />
             <button className="absolute bottom-8 bg-[#E6FF33] text-[#5E6815] border border-[#D2E92F] w-[281px] lg:w-[336px] md:w-[255px] py-3 rounded-sm hover:bg-[#bdd02a] hover:text-black">
               Apply for a loan today
             </button>
           </div>
-
           <div className="w-full md:w-1/3 p-3 border border-[#E7E5E4] rounded-2xl">
             <div className="flex flex-col p-2 rounded-[10px] bg-[#FAFAF9] gap-3">
               <Data
