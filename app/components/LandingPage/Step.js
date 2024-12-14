@@ -12,18 +12,12 @@ export default function Step() {
       <div className="bg-black relative overflow-hidden">
         <div className="max-w-[1440px] mx-auto lg:mx-28 md:px-12 lg:px-0 py-12 sm:py-24 flex md:flex-row flex-col z-10 justify-center items-center md:items-start">
           <div className="text-white w-[345px] md:w-[488px] z-10 sm:px-0 px-3">
-            <div className="flex flex-col">
-              <p className="text-xs hidden md:block">How it works</p>
-              <p className="text-xs block md:hidden">Our Product</p>
-              <div className="max-w-[287px] mt-6">
-                <h3 className="text-3xl md:text-5xl">Apply in just 3 easy steps.</h3>
-              </div>
-              <div className="mt-12 hidden md:block">
-                <button className="bg-[#E6FF33] border border-[#D2E92F] text-[#5E6815] px-5 py-3 rounded-sm hover:bg-[#bdd02a] hover:text-black">
-                  Apply for loan
-                </button>
-              </div>
-            </div>
+            <p className="text-xs hidden md:block">How it works</p>
+            <p className="text-xs block md:hidden">Our Product</p>
+            <h3 className="text-3xl md:text-5xl max-w-[287px] mt-6">Apply in just 3 easy steps.</h3>
+            <button className="bg-[#E6FF33] border border-[#D2E92F] text-[#5E6815] px-5 py-3 rounded-sm hover:bg-[#bdd02a] hover:text-black mt-12 hidden md:block">
+              Apply for loan
+            </button>
           </div>
           <div className="z-10 mt-12 md:mt-0">
             {/* Step-1 */}

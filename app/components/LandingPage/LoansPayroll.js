@@ -24,7 +24,7 @@ export default function LoansPayroll() {
     <>
       <div className="max-w-[1440px] mx-auto py-12 sm:py-24">
         <div className="pb-16">
-          <h2 className="flex flex-wrap font-manrope justify-center text-4xl sm:text-5xl text-[#44403C]">
+          <h2 className="font-manrope text-center text-4xl sm:text-5xl text-[#44403C]">
             See why so many<span className="text-[#BCD02A] font-serif italic px-2">switched </span> to LoansMyPayroll
           </h2>
         </div>
