@@ -29,7 +29,7 @@ export default function LoansPayroll() {
           </h2>
         </div>
 
-        <div className="flex flex-col md:flex-row max-w-[1216px] items-center mx-6 justify-center gap-6 lg:mx-28 sm:mx-20">
+        <div className="flex flex-col md:flex-row max-w-[1216px] items-center justify-center gap-6 mx-6 lg:mx-28 sm:mx-20">
           <div className="w-full  md:w-1/3 p-3 border border-[#E7E5E4] rounded-2xl">
             <div className="flex flex-col p-2 rounded-[10px] bg-[#FAFAF9] gap-3">
               <Data

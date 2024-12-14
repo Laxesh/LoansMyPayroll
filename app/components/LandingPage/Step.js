@@ -25,7 +25,7 @@ export default function Step() {
               </div>
             </div>
           </div>
-          <div className="z-10 mt-12 sm:mx-6 md:mt-0 md:mx-0 mx-6">
+          <div className="z-10 mt-12 md:mt-0 mx-6 lg:mx-28 sm:mx-20 md:mx-0">
             {/* Step-1 */}
             <div className="flex flex-col gap-6 z-10">
               <div className="bg-white max-w-[345px] sm:max-w-[696px] rounded-md">
